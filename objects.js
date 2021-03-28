@@ -1,8 +1,8 @@
-var playlist = new Object (
+var playlist = new Object {
   song: "Yonce",
   artist: "Beyonce"
+}
 
-);
 
 function updatePlaylist() {
 
