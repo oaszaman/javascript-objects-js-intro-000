@@ -1,13 +1,12 @@
-let playlist = {
+var playlist = {
   song: "Yonce",
   artist: "Beyonce"
 }
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  this.playlist = playlist;
-    this.artistName = artistName;
-    this.songTitle = songTitle;
+  playlist[artistName] = songTitle;
+  return playlist
 }
 
 function removeFromPlaylist(playlist, artistName) {
