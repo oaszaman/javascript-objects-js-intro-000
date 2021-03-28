@@ -1,13 +1,13 @@
-var playlist = new Object ({
+let playlist = {
   song: "Yonce",
   artist: "Beyonce"
-})
+}
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
 
 }
 
-function removeFromPlaylist() {
+function removeFromPlaylist(playlist, artistName) {
 
 }
